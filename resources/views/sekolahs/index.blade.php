@@ -44,7 +44,7 @@
                                         <form action="{{ route('sekolahs.destroy', $sekolah->id) }}" id="formdelete{{ $sekolah->id }}" method="POST" style="display: inline-block;">
                                             @csrf
                                             @method('DELETE')
-                                            <button type="button" class="btn btn-danger px-2" onclick="confirmDelete('{{ $sekolah->id }}')">Hapus</button>
+                                            <button type="button" class="btn btn-danger px-2 mt-3" onclick="confirmDelete('{{ $sekolah->id }}')">Hapus</button>
                                         </form>
                                     </div>
                                 </td>
